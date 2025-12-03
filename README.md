@@ -2,7 +2,8 @@
 
 A modern, minimalistic weather dashboard application that provides real-time weather information and forecasts for any location worldwide. Built with vanilla JavaScript, CSS, and the OpenWeatherMap API.
 
-![Weather Dashboard](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Weather Dashboard](<img width="1875" height="911" alt="image" src="https://github.com/user-attachments/assets/a30f7a9d-7cee-418e-8c8e-c1d371c4d039" />
+)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
 
@@ -42,15 +43,17 @@ A modern, minimalistic weather dashboard application that provides real-time wea
 
 ## 🚀 Demo
 
-[Live Demo](#) *(Add your deployed link here)*
+[Live Demo](#) *(https://sparkling-youtiao-230ad5.netlify.app/)*
 
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
+![Desktop Screenshot](<img width="1875" height="911" alt="image" src="https://github.com/user-attachments/assets/55453d7b-1c9d-4996-bf5b-c146934fd86f" />
+)
 
 ### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
+![Mobile Screenshot](https://github.com/user-attachments/assets/dd533aab-11e4-48b6-b977-0d5851a75575)
+)
 
 ## 🛠️ Technologies Used
 
@@ -226,7 +229,7 @@ Please review our [Security Policy](SECURITY.md) for information on reporting vu
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the GitHub repository.
+For support, mkhabelafefe@gmail.com or open an issue in the GitHub repository.
 
 ## 📊 Project Status
 
@@ -234,6 +237,7 @@ Project is: **Active Development** 🚀
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Sbongakonke Mkhabela]
+
 
 **Star ⭐ this repository if you found it helpful!**
