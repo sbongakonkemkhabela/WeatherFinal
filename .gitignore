@@ -1,0 +1,179 @@
+# Weather Dashboard .gitignore
+
+# ===================================
+# API Keys & Sensitive Information
+# ===================================
+# IMPORTANT: Never commit API keys!
+config.js
+.env
+.env.local
+.env.production
+secrets.js
+api-keys.txt
+
+# ===================================
+# Operating System Files
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ===================================
+# IDE & Editor Files
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===================================
+# Dependencies & Package Managers
+# ===================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ===================================
+# Build & Distribution
+# ===================================
+
+# Build directories
+dist/
+build/
+out/
+
+# Production builds
+*.min.js
+*.min.css
+
+# ===================================
+# Logs & Temporary Files
+# ===================================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ===================================
+# Testing & Coverage
+# ===================================
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Test results
+test-results/
+.jest/
+
+# ===================================
+# Documentation
+# ===================================
+
+# Generated documentation (if using JSDoc, etc.)
+docs/api/
+jsdoc/
+
+# ===================================
+# Deployment
+# ===================================
+
+# Deployment scripts with sensitive data
+deploy.sh
+deploy-config.json
+
+# ===================================
+# Personal Notes & TODOs
+# ===================================
+
+# Personal notes
+notes.txt
+TODO.txt
+NOTES.md
+scratch.js
+
+# ===================================
+# Backup Files
+# ===================================
+
+# Backup files
+*.bak
+*.backup
+*-backup.*
+*.old
+
+# ===================================
+# Archives
+# ===================================
+
+# Compressed files (usually not needed in repo)
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.7z
+
+# ===================================
+# Project Specific
+# ===================================
+
+# Screenshot working directory
+screenshots/working/
+
+# Local test data
+test-data/
+mock-data/local/
+
+# Local server configuration
+.htaccess.local
+server-config.local.js

@@ -1,0 +1,179 @@
+:root {
+    --bg-gradient: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    --card-bg: rgba(16, 33, 60, 0.6); /* Dark Blue Glass */
+    --card-border: 1px solid rgba(255, 255, 255, 0.1);
+    --text-primary: #ffffff;
+    --text-secondary: #b0c4de;
+    --accent: #64ffda; /* Teal accent for icons */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    color: var(--text-primary);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --- Header --- */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: var(--card-border);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 15px;
+    outline: none;
+}
+
+.search-box button, .location-icon {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover, .location-icon:hover {
+    color: var(--accent);
+}
+
+#error-message {
+    background: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.hidden { display: none; }
+
+/* --- Current Weather --- */
+.current-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#city-display { font-size: 2rem; font-weight: 600; }
+#weather-condition { color: var(--text-secondary); font-size: 1.2rem; text-transform: capitalize; }
+
+.temp-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#current-temp { font-size: 5rem; font-weight: 700; }
+#weather-icon { width: 80px; height: 80px; }
+
+.weather-details {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.detail-card {
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: 15px;
+    border: var(--card-border);
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-card span { font-size: 0.8rem; color: var(--text-secondary); }
+.detail-card strong { font-size: 1.1rem; margin-top: 5px; }
+
+/* --- Hourly Forecast --- */
+.forecast-section h3, .card h3 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hourly-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-width: none; /* Firefox */
+}
+.hourly-scroll::-webkit-scrollbar { display: none; } /* Chrome */
+
+.hourly-item {
+    background: var(--card-bg);
+    min-width: 70px;
+    padding: 15px 10px;
+    border-radius: 20px;
+    text-align: center;
+    border: var(--card-border);
+}
+.hourly-item img { width: 40px; height: 40px; margin: 5px 0; }
+.hourly-item span { display: block; font-size: 0.9rem; }
+
+/* --- Grid Section --- */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media(min-width: 768px) {
+    .info-grid { grid-template-columns: 1.5fr 1fr; }
+}
+
+.card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    border: var(--card-border);
+}
+
+/* Daily Forecast */
+.daily-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.daily-row:last-child { border-bottom: none; }
+.daily-row img { width: 30px; vertical-align: middle; }
+
+/* Suggestions */
+.suggestions-col { display: flex; flex-direction: column; gap: 20px; }
+.suggestion-card p { font-size: 1.1rem; line-height: 1.4; color: #dbeafe; }
