@@ -48,7 +48,8 @@ A modern, minimalistic weather dashboard application that provides real-time wea
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Screenshot](<img width="1875" height="911" alt="image" src="https://github.com/user-attachments/assets/55453d7b-1c9d-4996-bf5b-c146934fd86f" />
+![Desktop Screenshot](<img width="1875" height="911" alt="Screenshot 2025-12-04 002542" src="https://github.com/user-attachments/assets/822b7e0d-db74-4ff9-bb13-d20749dc5952" />
+
 )
 
 ### Mobile View
@@ -241,3 +242,4 @@ Made with ❤️ by [Sbongakonke Mkhabela]
 
 
 **Star ⭐ this repository if you found it helpful!**
+
