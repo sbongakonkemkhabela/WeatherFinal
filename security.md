@@ -71,7 +71,7 @@ If you discover a security vulnerability within Weather Dashboard, please follow
 ### Reporting Process
 
 1. **Do Not** open a public GitHub issue for security vulnerabilities
-2. Email security details to: **your-email@example.com**
+2. Email security details to: **mkhabelafefe@gmail.com**
 3. Include the following information:
    - Description of the vulnerability
    - Steps to reproduce the issue
@@ -209,7 +209,7 @@ app.get('/api/weather', async (req, res) => {
 
 For security-related questions or concerns:
 
-- **Email**: your-email@example.com
+- **Email**: mkhabelafefe@gmail.com
 - **Response Time**: Within 48 hours
 - **PGP Key**: [Available on request]
 
@@ -224,5 +224,6 @@ We thank all security researchers and contributors who help keep Weather Dashboa
 ---
 
 **Last Updated**: December 2025
+
 
 This security policy is subject to change. Please check back regularly for updates.
